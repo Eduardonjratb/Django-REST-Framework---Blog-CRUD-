@@ -1,4 +1,52 @@
 # Blog API
+## Instalación
+
+### Requisitos
+
+- Python
+- Django
+- Lista completa disponible en el archivo `requirements.txt`
+
+### Inicio rápido
+
+1. Clonar el repositorio.
+
+    ```sh
+    git clone https://github.com/Eduardonjratb/Django-REST-Framework---Blog-CRUD-.git
+    ```
+
+2. Dentro de la carpeta del proyecto, crea un entorno virtual y actívalo.
+
+    ```sh
+    cd blog2
+    pip install virtualenv
+    virtualenv env
+    source env/bin/activate
+    ```
+
+3. Instalar los requisitos desde `requirements.txt`.
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. Realizar migraciones y migrar el proyecto.
+
+    ```sh
+    python manage.py makemigrations && python manage.py migrate
+    ```
+
+5. Crear un superusuario.
+
+    ```sh
+    python manage.py createsuperuser
+    ```
+
+6. Ejecutar el servidor.
+
+    ```sh
+    python manage.py runserver
+    ```
 
 ## Models
 
