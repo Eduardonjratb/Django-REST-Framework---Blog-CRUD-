@@ -48,6 +48,7 @@ class PostListSerializer(serializers.ModelSerializer):
             "author",
             "image",
             "description",
+            "created_at",
             "comments",
         ]
 
